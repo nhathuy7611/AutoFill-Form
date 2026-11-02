@@ -1,0 +1,23 @@
+# Dependencies and framework output
+/node_modules/
+/.next/
+/out/
+/build/
+/dist/
+*.tsbuildinfo
+
+# Local configuration and credentials
+.env*
+!.env.example
+/.claude/settings.local.json
+
+# Runtime data and generated reports
+/data/history.csv
+/data/results/
+/playwright-report/
+/test-results/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
