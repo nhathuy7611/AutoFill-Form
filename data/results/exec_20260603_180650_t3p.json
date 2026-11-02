@@ -1,0 +1,13 @@
+[
+  {
+    "round": 1780484816049,
+    "timestamp": "2026-06-03T11:06:56.049Z",
+    "data": {
+      "field_0": "Có"
+    },
+    "status": "error",
+    "error": "page.waitForTimeout: Target page, context or browser has been closed",
+    "pageCount": 1,
+    "currentPageIndex": 0
+  }
+]

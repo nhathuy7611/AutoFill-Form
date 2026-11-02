@@ -1,0 +1,11 @@
+[
+  {
+    "round": 1780661400757,
+    "timestamp": "2026-06-05T12:10:00.757Z",
+    "data": {},
+    "status": "error",
+    "error": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://docs.google.com/forms/d/e/1FAIpQLSep5ThRm1TGIKSAa7twWdU01MahIhzAGyjV6ei5hraeRB2g6w/viewform?usp=dialog\", waiting until \"networkidle\"\u001b[22m\n",
+    "pageCount": 1,
+    "currentPageIndex": 0
+  }
+]

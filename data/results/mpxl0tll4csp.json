@@ -1,0 +1,25 @@
+[
+  {
+    "round": 1780461862617,
+    "timestamp": "2026-06-03T04:44:22.617Z",
+    "data": {
+      "field_0": "Có",
+      "field_2": "Mạng xã hội (Facebook, Zalo, LinkedIn,...)",
+      "field_6": "Nữ",
+      "field_7": "Học sinh & Sinh viên",
+      "field_8": "Từ 30 đến 44 tuổi",
+      "field_9": "Sau Đại học (Thạc sĩ, Tiến sĩ...)",
+      "field_10": "Từ 16 - 29 triệu đồng",
+      "field_12": "Bình thường",
+      "field_13": "Rất Đồng ý",
+      "field_14": "Rất không đồng ý",
+      "field_15": "Rất Đồng ý",
+      "field_16": "Rất không đồng ý",
+      "field_17": "Đồng ý",
+      "field_18": "Đồng ý"
+    },
+    "status": "success",
+    "pageCount": 20,
+    "currentPageIndex": 19
+  }
+]
