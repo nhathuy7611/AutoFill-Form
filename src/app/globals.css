@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;        /* slate-50 */
+    --foreground: 222 47% 11%;        /* slate-900 */
+    --card: 0 0% 100%;                /* white */
+    --card-foreground: 222 47% 11%;
+    --primary: 221 83% 53%;           /* blue-600 */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 215 82% 32%;         /* blue-800-ish */
+    --secondary-foreground: 0 0% 100%;
+    --accent: 22 100% 50%;            /* orange-600 */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 72% 51%;         /* red-600 */
+    --destructive-foreground: 0 0% 100%;
+    --muted: 210 40% 96%;             /* slate-100 */
+    --muted-foreground: 215 16% 47%;  /* slate-500 */
+    --border: 214 32% 91%;            /* slate-200 */
+    --input: 214 32% 91%;
+    --ring: 221 83% 53%;              /* blue-600 */
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+/* Custom scrollbar */
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 4px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted-foreground) / 0.3);
+    border-radius: 2px;
+  }
+}
